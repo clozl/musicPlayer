@@ -1,0 +1,167 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width:1220px;
+    height:800px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin:0px auto;
+}
+.player{
+    float:left;
+    width:700px;
+    height:800px;
+    background-color: beige;
+}
+.head{
+    width:700px;
+    height: 130px;
+    /* background-color: yellow; */
+}
+#music-tit{
+    width:700px;
+    height: 80px;
+    background-color: cadetblue; 
+    font-size: 40px;
+    text-align: center;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+#artist{
+    width:700px;
+    height: 50px;
+    /* background-color:forestgreen; */
+    font-size: 35px;
+    text-align: center;
+}
+.body{
+    width:700px;
+    height:650px;
+    /* background-color: tomato; */
+}
+.album{
+    width:700px;
+    height:470px;
+    background-color: lightblue;
+    padding:25px 0;
+    box-sizing: border-box;
+}
+#album-img{
+    width:380px;
+    height:380px;
+    border-radius: 50%;
+    background-color: grey; 
+    margin:0 auto;
+    margin-top:15px;
+    box-sizing: border-box;
+}
+.control{
+    width:700px;
+    height:200px;
+    background-color: beige;
+}
+.time{
+    width:700px;
+    height:60px;
+    /* background-color: lightsalmon; */
+}
+.time span{
+    display: block;
+    float: left;
+    width:100px;
+    height: 60px;
+    /* background-color: red; */
+    font-size:25px;
+    padding:10px 20px;
+    box-sizing: border-box;
+}
+.playbar{
+    float: left;
+    width:500px;
+    height: 60px;
+    background-color: cadetblue;
+}
+.btns-box{
+    width:700px;
+    height:140px;
+    /* background-color: yellow; */
+}
+.btns{
+    width:500px;
+    height:140px;
+    background-color: lightcyan;
+    margin:0 100px;
+    padding-top:30px;
+    padding-left:75px;
+    box-sizing: border-box;
+}
+.btns li{
+    float:left;
+}
+.btns li a{
+    display: block;
+    width: 70px;
+    height: 90px;
+    /* background-color: aqua; */
+    margin-right:70px;
+}
+i{
+    color:black;
+}
+.playlist{
+    float:left;
+    width:520px;
+    height: 800px;
+    background-color:lightcyan;
+}
+.playlist ul li{
+    width:490px;
+    height:120px;
+    /* background-color: palegoldenrod; */
+    margin:11px auto;
+}
+.music{
+    width:490px;
+    height:120px;
+    background-color: thistle;
+    border-radius: 10px;
+}
+.Mimg{
+    float: left;
+    width:120px;
+    height:120px;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.Martist{
+    float: left;
+    width:370px;
+    height:60px;
+    background-color: skyblue;
+    font-size: 28px;
+    text-align: center;
+    padding-top:10px;
+    box-sizing: border-box;
+    border-top-right-radius: 10px;
+}
+.Mtitle{
+    float: left;
+    width:370px;
+    height:60px;
+    background-color:royalblue;
+    font-size: 24px;
+    text-align: center;
+    padding-top:10px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+}
